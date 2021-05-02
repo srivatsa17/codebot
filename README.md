@@ -1,11 +1,11 @@
 # Slack Codebot
-This is a slack codebot that generates random programs using the codeforces api.
+This is a slack bot that generates random programs using the codeforces api.
 
 Pre-requisites:
-1. Create a workspace in slack 
-2. Create a classical legacy bot app in slack workspace [Slack App](https://api.slack.com/apps?new_classic_app=1 "Slack App")
+* Create a workspace in slack 
+* Create a classical legacy bot app in slack workspace [Slack App](https://api.slack.com/apps?new_classic_app=1 "Slack App")
 
-How to run:
+How to run:<br/>
 Run the following commands on your local system
 
 ```
@@ -17,6 +17,7 @@ $ cd slack_codebot
 * Download axios and slackbots in the local directory `npm i axios slackbots`
 * Inside the index.js file, add your bot token.
 * Run the code using the command `npm start` inside the local directory.
-* In the slack workspace, type `@Codebot problem` which generates a problem in random.
+* In the slack workspace, create a channel with the name `codebot_channel` 
+* Type `@Codebot problem` which generates a problem of codeforces to be solved.
 
 Note - local directory: `slack_codebot`
