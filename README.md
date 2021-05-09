@@ -19,6 +19,6 @@ $ cd slack_codebot
 * Download axios and slackbots in the local directory `npm i axios slackbots`
 * Inside the index.js file, add your bot token.
 * Run the code using the command `npm start` inside the local directory.
-* Type `@Codebot problem` which generates a problem of codeforces to be solved.
+* Type `@Codebot easy/medium/hard` in your channel which generates a problem of codeforces to be solved.
 
 Note - local directory: `slack_codebot`
