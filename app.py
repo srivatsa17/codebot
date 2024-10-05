@@ -59,7 +59,7 @@ def mention_handler(body, say):
     problem = get_problem(difficulty_level)
     
     if not problem:
-        say("Oops! Unable to get a fetch problem from codeforces. Try again!")
+        say("Oops! Unable to fetch a problem from codeforces. Try again!")
         return
     
     slack_msg = f"Hi. A Random Problem for you is: \nhttps://codeforces.com/problemset/problem/{problem['contestId']}/{problem['index']}"
